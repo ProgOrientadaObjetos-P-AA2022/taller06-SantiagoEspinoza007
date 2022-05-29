@@ -90,11 +90,11 @@ public class Principal {
         }
         
         EntidadHospitalaria enti = new EntidadHospitalaria(nombreHospital, direccion,   
-                hospital, medi, enfe);
+                hospital, numEspecialidades, medi, enfe);
         
-        enti.calcularSueldos();
         enti.establecerConjuntoMedicos(medi);
         enti.establecerConjuntoEnfermeros(enfe);
+        enti.calcularSueldos();
         System.out.printf("\n%s\n", enti);
         
     }

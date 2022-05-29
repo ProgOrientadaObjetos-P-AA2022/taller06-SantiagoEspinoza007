@@ -18,7 +18,7 @@ public class Enfermero {
         
         nombreE = nom;
         tipoC = tipo;
-        sueldo = sueldo;
+        sueldo = suel;
         
     }
     

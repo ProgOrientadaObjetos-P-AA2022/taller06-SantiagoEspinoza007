@@ -39,7 +39,7 @@ public class CiudadHospital {
         
     }
     
-    public String obtenerProvincia(){
+    public String obtenerProvinciaC(){
         
         return provinciaC;
         
