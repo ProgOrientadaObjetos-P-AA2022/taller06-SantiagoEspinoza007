@@ -13,6 +13,7 @@ public class CiudadHospital {
     private String nombreC;
     private String provinciaC;
     
+    
     public CiudadHospital(String nom, String prov){
         
         nombreC = nom;
@@ -20,25 +21,25 @@ public class CiudadHospital {
         
     }
     
-    public void establecerNombreCiudad(String nom){
+    public void establecerNombreC(String nom){
     
         nombreC = nom;
     
     }
     
-    public void establecerProvinciaCiudad(String prov){
+    public void establecerProvinciaC(String prov){
         
         provinciaC = prov;
         
     }
     
-    public String obtenerNombreCiudad(){
+    public String obtenerNombreC(){
         
         return nombreC;
         
     }
     
-    private String obtenerProvinciaCiudad(){
+    public String obtenerProvincia(){
         
         return provinciaC;
         
